@@ -52,6 +52,31 @@ perimeter of square is 25
 
 #Project changes
 ##History of changes
-1) Commit hash:
-2) Commit hash:
-3) Commit hash:
+1) Commit hash: 8ba9aeb
+Circle and square added
+
+2) Commit hash: d078c8d
+Docs added
+
+3) Commit hash: d080c78
+Triangle added
+
+
+4) Commit hash: 51c40eb
+Doc updated for triangle
+
+5) Commit hash: d76db2a
+Add calculate.py
+
+6) Commit hash: b5b0fae
+Update docs for calculate.py
+
+
+7) Commit hash: 5de7a22
+Files were changed (square.py and circle.py)
+
+8) Commit hash: e407854
+File was changed (calculate.py)
+
+
+
