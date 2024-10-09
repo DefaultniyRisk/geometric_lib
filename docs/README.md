@@ -1,3 +1,5 @@
+#General Description
+This Python calculator script (calculate.py) allows users to calculate the area or perimeter of basic geometric figures like circles and squares.
 
 # How to use calculator:
 1. Run `python calculate.py`
@@ -18,4 +20,64 @@
 - Rectangle: `P = 2a + 2b`
 - Square: `P = 4a`
 - Triangle: `P = a + b + c`
+
+#Examples
+##Circle
+INPUT:
+'''
+Enter figure name, available are ['circle', 'square']:
+circle
+Enter function name, available are ['perimeter', 'area']:
+area
+Input figure sizes separated by space, 1 for circle and square
+5
+'''
+
+OUTPUT:
+'''
+area of circle is 78.53981633974483
+'''
+##Square
+INPUT:
+'''
+Enter figure name, available are ['circle', 'square']:
+square
+Enter function name, available are ['perimeter', 'area']:
+perimeter
+Input figure sizes separated by space, 1 for circle and square
+5
+'''
+OUTPUT:
+'''
+perimeter of square is 25
+'''
+#Project changes
+##History of changes
+1) Commit hash: 8ba9aeb
+Circle and square added
+
+2) Commit hash: d078c8d
+Docs added
+
+3) Commit hash: d080c78
+Triangle added
+
+
+4) Commit hash: 51c40eb
+Doc updated for triangle
+
+5) Commit hash: d76db2a
+Add calculate.py
+
+6) Commit hash: b5b0fae
+Update docs for calculate.py
+
+
+7) Commit hash: 5de7a22
+Files were changed (square.py and circle.py)
+
+8) Commit hash: e407854
+File was changed (calculate.py)
+
+
 
