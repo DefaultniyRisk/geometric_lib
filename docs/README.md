@@ -24,32 +24,33 @@ This Python calculator script (calculate.py) allows users to calculate the area 
 #Examples
 ##Circle
 INPUT:
-
+'''
 Enter figure name, available are ['circle', 'square']:
 circle
 Enter function name, available are ['perimeter', 'area']:
 area
 Input figure sizes separated by space, 1 for circle and square
 5
+'''
 
 OUTPUT:
-
+'''
 area of circle is 78.53981633974483
-
+'''
 ##Square
 INPUT:
-
+'''
 Enter figure name, available are ['circle', 'square']:
 square
 Enter function name, available are ['perimeter', 'area']:
 perimeter
 Input figure sizes separated by space, 1 for circle and square
 5
-
+'''
 OUTPUT:
-
+'''
 perimeter of square is 25
-
+'''
 #Project changes
 ##History of changes
 1) Commit hash: 8ba9aeb
