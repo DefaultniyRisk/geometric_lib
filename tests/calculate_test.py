@@ -38,12 +38,12 @@ def test_triangle_area():
 
 
 def test_invalid_size_square():
-    with pytest.raises(AssertionError, match="Error"):
+    with pytest.raises(AssertionError, match="fail"):
         calc('circle', 'area', [3, 5, 9])
 
 
 def test_invalid_size_circle():
-    with pytest.raises(AssertionError, match="Error"):
+    with pytest.raises(AssertionError, match="fail"):
         calc('circle', 'area', [1, 4, 2])
 
 
@@ -53,15 +53,15 @@ def test_triangle_perimeter():
 
 
 def test_invalid_function():
-    with pytest.raises(AssertionError, match="Error"):
+    with pytest.raises(AssertionError, match="fail"):
         calc('circle', 'speed', [3])
 
 
 def test_invalid_figure():
-    with pytest.raises(AssertionError, match="Error"):
+    with pytest.raises(AssertionError, match="fail"):
         calc('oval', 'area', [1])
 
 
 def test_invalid_size_triangle():
-    with pytest.raises(AssertionError, match="Error"):
+    with pytest.raises(AssertionError, match="fail"):
         calc('triangle', 'area', [7])
