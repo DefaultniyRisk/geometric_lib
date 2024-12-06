@@ -1,6 +1,6 @@
-import circle  
-import square  
-import triangle  
+import circle # noqa: F401
+import square # noqa: F401 
+import triangle # noqa: F401 
 
 figs = ['circle', 'square', 'triangle']
 funcs = ['perimeter', 'area']
@@ -13,14 +13,12 @@ sizes = {
     "perimeter-triangle": 3
 }
 
-
 def calc(fig, func, size):
     assert fig in figs, "fail"
     assert func in funcs, "fail"
     assert len(size) == sizes.get(f"{func}-{fig}", 1), "fail"
     result = eval(f'{fig}.{func}(*{size})')
     return result
-
 
 if __name__ == "__main__":
     func = ''
